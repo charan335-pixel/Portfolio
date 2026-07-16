@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P. Charan – Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 0;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 18mm 20mm 14mm 20mm;
+      background: #fff;
+    }
+
+    /* ── NAME ── */
+    .name {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+      color: #0d0d0d;
+    }
+
+    /* ── CONTACT ROW ── */
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 24px;
+      font-size: 10pt;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+    .contact-row a {
+      color: #1a56c4;
+      text-decoration: none;
+    }
+    .contact-row a:hover { text-decoration: underline; }
+    .contact-sep { color: #555; }
+
+    hr.thin {
+      border: none;
+      border-top: 1.5px solid #1a1a1a;
+      margin: 6px 0 8px 0;
+    }
+    hr.light {
+      border: none;
+      border-top: 0.75px solid #aaa;
+      margin: 6px 0 8px 0;
+    }
+
+    /* ── SECTION HEADING ── */
+    .section-title {
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+      color: #0d0d0d;
+    }
+
+    /* ── CAREER OBJECTIVE ── */
+    .objective p {
+      font-size: 10.5pt;
+      line-height: 1.55;
+      color: #222;
+    }
+
+    /* ── EDUCATION TABLE ── */
+    table.edu-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10pt;
+      margin-top: 4px;
+    }
+    table.edu-table th {
+      background: #f0f0f0;
+      border: 1px solid #bbb;
+      padding: 5px 8px;
+      text-align: left;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+    table.edu-table td {
+      border: 1px solid #bbb;
+      padding: 5px 8px;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+
+    /* ── SKILLS ── */
+    .skills-block { margin-top: 2px; }
+    .skill-line {
+      font-size: 10.5pt;
+      line-height: 1.7;
+      color: #222;
+    }
+    .skill-line strong { font-weight: 700; }
+
+    /* ── INTERNSHIP / PROJECTS / CERTS / ACH ── */
+    .entry { margin-bottom: 9px; }
+    .entry-header {
+      font-size: 10.5pt;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #0d0d0d;
+    }
+    .entry-header em { font-style: italic; font-weight: 400; }
+    .entry p {
+      font-size: 10.5pt;
+      line-height: 1.55;
+      color: #222;
+      margin-top: 2px;
+    }
+    .entry p strong { font-weight: 700; }
+    .entry p em { font-style: italic; }
+
+    /* ── PERSONAL INFO ── */
+    .personal-grid {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5pt;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    section { margin-bottom: 10px; }
+
+    /* ── PRINT ── */
+    @media print {
+      body { background: #fff; }
+      .page {
+        width: 100%;
+        padding: 16mm 18mm 14mm 18mm;
+        box-shadow: none;
+      }
+    }
+
+    /* Screen preview card */
+    @media screen {
+      body { background: #e5e7eb; padding: 32px 0 48px; }
+      .page {
+        box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+        border-radius: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- NAME -->
+  <div class="name">P CHARAN</div>
+  <hr class="thin" />
+
+  <!-- CONTACT -->
+  <div class="contact-row">
+    <a href="mailto:charanpcharan817@gmail.com">charanpcharan817@gmail.com</a>
+    <span class="contact-sep">|</span>
+    <span>9866539465</span>
+    <span class="contact-sep">|</span>
+    <a href="https://linkedin.com/in/p-charan-745b432bb" target="_blank">linkedin.com/in/p-charan-745b432bb</a>
+    <span class="contact-sep">|</span>
+    <a href="https://github.com/charan335-pixel" target="_blank">https://github.com/charan335-pixel</a>
+  </div>
+  <hr class="thin" />
+
+  <!-- CAREER OBJECTIVE -->
+  <section class="objective">
+    <div class="section-title">Career Objective</div>
+    <p>
+      Enthusiastic Java Full Stack Developer proficient in building robust backend systems using Java and Spring Boot.
+      Skilled in developing responsive user interfaces with React and JavaScript to deliver end-to-end software solutions.
+    </p>
+  </section>
+  <hr class="light" />
+
+  <!-- EDUCATION -->
+  <section>
+    <div class="section-title">Education</div>
+    <table class="edu-table">
+      <thead>
+        <tr>
+          <th>Qualification</th>
+          <th>Course</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Percentage / CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B.Tech</td>
+          <td>CSE (AI&amp;ML)</td>
+          <td>Kuppam Engineering College</td>
+          <td>2023 – Present</td>
+          <td>CGPA : 7.7</td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td>MPC</td>
+          <td>Kuppam Junior College</td>
+          <td>2021 – 2023</td>
+          <td>81.7%</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>SSC</td>
+          <td>Goutham E.M School</td>
+          <td>2020 – 2021</td>
+          <td>92%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <hr class="light" />
+
+  <!-- SKILLS -->
+  <section>
+    <div class="section-title">Skills</div>
+    <div class="skills-block">
+      <div class="skill-line"><strong>Technical Skills:</strong> Java, Python, HTML</div>
+      <div class="skill-line"><strong>Backend:</strong> Spring Boot, REST APIs</div>
+      <div class="skill-line"><strong>Database:</strong> MySQL</div>
+      <div class="skill-line"><strong>Soft Skills:</strong> Time management, Adaptability, Team collaboration</div>
+    </div>
+  </section>
+  <hr class="light" />
+
+  <!-- INTERNSHIP -->
+  <section>
+    <div class="section-title">Internship</div>
+    <div class="entry">
+      <div class="entry-header">
+        Java Full Stack Developer Intern &nbsp;|&nbsp;
+        <em>Vaultsphere AI Technologies &nbsp; May 2026 – July 2026</em>
+      </div>
+      <p>
+        Designed and engineered end-to-end web applications by building responsive user interfaces
+        and seamlessly integrating backend architectures.
+      </p>
+    </div>
+  </section>
+  <hr class="light" />
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="section-title">Projects</div>
+    <div class="entry">
+      <div class="entry-header">
+        Daily Expense Tracker &nbsp;|&nbsp; <em>Backend Developer</em>
+      </div>
+      <p>
+        Full-stack web application built with Java and Spring Boot to securely track financial
+        transactions, using Thymeleaf and Chart.js for dynamic, responsive expense analytics.
+      </p>
+    </div>
+    <div class="entry">
+      <div class="entry-header">Student Dashboard System</div>
+      <p>
+        Developed a full-stack web application to manage student records using Java, Spring Boot,
+        MySQL, HTML, CSS, and JavaScript. Implemented CRUD operations through REST APIs for
+        efficient data management.
+      </p>
+    </div>
+  </section>
+  <hr class="light" />
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="section-title">Certifications</div>
+    <div class="entry">
+      <p>
+        <strong>Generative AI</strong> – <em>Microsoft</em> &nbsp;|&nbsp;
+        Mastered foundational LLM concepts, and generative AI architectures.
+      </p>
+    </div>
+    <div class="entry">
+      <p>
+        <strong>AI Tools &amp; Automation (BE10x):</strong>
+        Applied advanced prompt engineering and AI productivity workflows.
+      </p>
+    </div>
+  </section>
+  <hr class="light" />
+
+  <!-- ACHIEVEMENT -->
+  <section>
+    <div class="section-title">Achievement</div>
+    <div class="entry">
+      <p>
+        <strong>Research Paper:</strong>
+        <em>Self-Defending Cyber System Using Deep Neural Intelligence</em>
+        &nbsp;|&nbsp; <strong>NCRICCT-26</strong> &nbsp;
+        Designed and built a deep learning framework to analyze network anomalies and
+        autonomously mitigate live cyber threats.
+      </p>
+    </div>
+  </section>
+  <hr class="light" />
+
+  <!-- PERSONAL INFORMATION -->
+  <section>
+    <div class="section-title">Personal Information</div>
+    <div class="personal-grid">
+      <span>S/O: M Prathap Chandran</span>
+      <span>DOB : 02/08/2005</span>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
